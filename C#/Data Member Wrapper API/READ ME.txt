@@ -1,0 +1,5 @@
+
+
+TASK LIST:
+Documentation on all types.
+Ignore unnessesary files.
