@@ -1,0 +1,11 @@
+
+
+
+
+TASK LIST:
+Document Types
+
+
+Questions:
+What package does INeuronOutput belong to?
+	It is an INeuronInput so it should go there? However it is different and independent to some degree.
