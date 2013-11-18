@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E46C8AAF-D6CC-4C9B-A36D-719E0FAA0964}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Neuron_API</RootNamespace>
+    <AssemblyName>Neuron API</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Data Member Wrapper API">
+      <HintPath>..\..\Data Member Wrapper API\Data Member Wrapper API\bin\Debug\Data Member Wrapper API.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Neurons Models\ANeurons.cs" />
+    <Compile Include="Neurons Models\INeurons.cs" />
+    <Compile Include="Neurons Models\Neuron Models\ANeuron.cs" />
+    <Compile Include="Neurons Models\Neuron Models\INeuron.cs" />
+    <Compile Include="Neurons Models\Neuron Models\Neuron Activation Function Models\Neuron Activation Function Input Models\ANeuronActivationFunctionInput.cs" />
+    <Compile Include="Neurons Models\Neuron Models\Neuron Activation Function Models\Neuron Activation Function Input Models\INeuronActivationFunctionInput.cs" />
+    <Compile Include="Neurons Models\Neuron Models\Neuron Activation Function Models\Neuron Activation Function Input Models\NeuronActivationFunctionInput.cs" />
+    <Compile Include="Neurons Models\Neuron Models\Neuron Activation Function Models\Neuron Activation Function Models\SigmoidFunction.cs" />
+    <Compile Include="Neurons Models\Neuron Models\Neuron Activation Function Models\Neuron Activation Function Models\StepFunction.cs" />
+    <Compile Include="Neurons Models\Neuron Models\Neuron Activation Function Models\ActivationFunctions.cs" />
+    <Compile Include="Neurons Models\Neuron Models\Neuron Activation Function Models\INeuronActivationFunction.cs" />
+    <Compile Include="Neurons Models\Neuron Models\Neuron Inputs Models\ANeuronInputs.cs" />
+    <Compile Include="Neurons Models\Neuron Models\Neuron Inputs Models\INeuronInputs.cs" />
+    <Compile Include="Neurons Models\Neuron Models\Neuron Inputs Models\Neuron Input Models\ANeuronInput.cs" />
+    <Compile Include="Neurons Models\Neuron Models\Neuron Inputs Models\Neuron Input Models\INeuronInput.cs" />
+    <Compile Include="Neurons Models\Neuron Models\Neuron Inputs Models\Neuron Input Models\NeuronInput.cs" />
+    <Compile Include="Neurons Models\Neuron Models\Neuron Inputs Models\NeuronInputs.cs" />
+    <Compile Include="Neurons Models\Neuron Models\Neuron Output Models\ANeuronOutput.cs" />
+    <Compile Include="Neurons Models\Neuron Models\Neuron Output Models\INeuronOutput.cs" />
+    <Compile Include="Neurons Models\Neuron Models\Neuron Output Models\NeuronOutput.cs" />
+    <Compile Include="Neurons Models\Neuron Models\Neuron Threshold Models\ANeuronThreshold.cs" />
+    <Compile Include="Neurons Models\Neuron Models\Neuron Threshold Models\INeuronThreshold.cs" />
+    <Compile Include="Neurons Models\Neuron Models\Neuron Threshold Models\NeuronThreshold.cs" />
+    <Compile Include="Neurons Models\Neuron Models\Neuron Value Models\ANeuronValue.cs" />
+    <Compile Include="Neurons Models\Neuron Models\Neuron Value Models\INeuronValue.cs" />
+    <Compile Include="Neurons Models\Neuron Models\Neuron Weights Models\ANeuronWeights.cs" />
+    <Compile Include="Neurons Models\Neuron Models\Neuron Weights Models\INeuronWeights.cs" />
+    <Compile Include="Neurons Models\Neuron Models\Neuron Weights Models\Neuron Weight Models\ANeuronWeight.cs" />
+    <Compile Include="Neurons Models\Neuron Models\Neuron Weights Models\Neuron Weight Models\INeuronWeight.cs" />
+    <Compile Include="Neurons Models\Neuron Models\Neuron Weights Models\Neuron Weight Models\NeuronWeight.cs" />
+    <Compile Include="Neurons Models\Neuron Models\Neuron Weights Models\NeuronWeights.cs" />
+    <Compile Include="Neurons Models\Neuron Models\Neuron.cs" />
+    <Compile Include="Neurons Models\Neurons Activation Functions Models\ANeuronsNeuronActivationFunctions.cs" />
+    <Compile Include="Neurons Models\Neurons Activation Functions Models\INeuronsNeuronActivationFunctions.cs" />
+    <Compile Include="Neurons Models\Neurons Activation Functions Models\NeuronsNeuronActivationFunctions.cs" />
+    <Compile Include="Neurons Models\Neurons Neuron Outputs Models\ANeuronsNeuronOutput.cs" />
+    <Compile Include="Neurons Models\Neurons Neuron Outputs Models\INeuronsNeuronOutput.cs" />
+    <Compile Include="Neurons Models\Neurons Neuron Outputs Models\NeuronsNeuronOutput.cs" />
+    <Compile Include="Neurons Models\Neurons Threshold Models\ANeuronsThresholds.cs" />
+    <Compile Include="Neurons Models\Neurons Threshold Models\INeuronsThresholds.cs" />
+    <Compile Include="Neurons Models\Neurons Threshold Models\NeuronsThresholds.cs" />
+    <Compile Include="Neurons Models\Neurons Weights Models\ANeuronsWeights.cs" />
+    <Compile Include="Neurons Models\Neurons Weights Models\INeuronsWeights.cs" />
+    <Compile Include="Neurons Models\Neurons Weights Models\NeuronsWeights.cs" />
+    <Compile Include="Neurons Models\Neurons.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utilitity\Config.cs" />
+    <Compile Include="Utilitity\Extensions.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

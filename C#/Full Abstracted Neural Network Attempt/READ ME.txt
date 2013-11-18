@@ -1,0 +1,15 @@
+So here is a failure project. I was going back and abstracting my Neural Network and after a while I stopped and realized I had created something...interesting. I had type safety, everything was abstracted to the best of my ability, and there was litterally no way for people to make mistakes. My design seemed good.
+
+However, I look at my code base one day and thought...will anyone use this? What have I done? I have created a high knowledge cap for my program. No one could use these APIs without knowing about all the little details. To make a Neuron you need NeuronWeights, NeuronThresholds, ect... To make one object can require as many as 12 other objects. The contructor call would be extremely long and filled with temporary types used to just pass data.
+
+This is a mistake. I took abstraction too far and I see it now. It is about making the code easy to use. While my code is maintainable, and allows for easy modifcation it requires too much work to use. My code will most likely deter people as they see how much there is to learn before being able to jump in and start coding.
+
+I have decided to leave projects as a reminder of what happens when you do not think about others. For me I was blindsighted and created a code base that was not easy to pick up and when we build apis we want to make it easy for a new developer to pick it up and start going.
+
+I hope others can learn from this.
+
+Feel free to message me about the code base and we can have an interesting discussion.
+
+Notes:
+-Documentation Not Complete.
+-Code is not fully functional and tested.

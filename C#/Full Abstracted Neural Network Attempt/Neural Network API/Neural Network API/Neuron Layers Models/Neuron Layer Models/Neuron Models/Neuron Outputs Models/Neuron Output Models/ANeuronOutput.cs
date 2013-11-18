@@ -1,0 +1,15 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Neural_Network_API.Utilities.Value_Models;
+
+namespace Neural_Network_API.Neuron_Layers_Models.Neuron_Layer_Models.Neuron_Models.Neuron_Outputs_Models.Neuron_Output_Models
+{
+    public class ANeuronOutputs : AValue<float>, INeuronOutput
+    {
+        public ANeuronOutputs(float passedValue)
+            : base(passedValue)
+        { }
+    }
+}
