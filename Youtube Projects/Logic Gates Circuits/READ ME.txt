@@ -1,0 +1,6 @@
+Please go download circuit simulator at:
+http://www.falstad.com/circuit/
+
+I am in no way tied to this program. I googled circuit simulator and found it. It works and that is really all I cared about.
+
+Simply Import the files to view them.
